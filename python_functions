@@ -1,0 +1,50 @@
+"""Python Function practice"""
+
+
+def full_name(fname,sname='No Surname'):
+    print(fname + "  " + sname)
+    
+
+"""Positinal Arguments"""
+full_name('Ajay','Dev')
+
+
+""" Keyword Arguments"""
+full_name(sname='Devagan',fname='Ajay')
+
+
+""" Default value"""
+full_name('Ajay')
+
+
+
+"""Python Function practice"""
+
+
+def full_name_return(fname,sname='No Surname'):
+    fullname= "First Name is " + fname + " Surname Name is " + sname
+    return fullname
+
+""" Returns values"""
+
+fname = full_name_return('Ajay','Dev')
+
+print (fname) 
+
+
+
+"""Python Function practice"""
+
+
+def full_name_return_dict(fname,sname='No Surname'):
+    fullname_dict= {'fname': fname, 'sname': sname}
+    return fullname_dict
+
+""" Returns values"""
+
+fname = full_name_return_dict('Ajay','Dev')
+
+print (fname) 
+
+
+
